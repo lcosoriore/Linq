@@ -1,0 +1,15 @@
+D:\Repositorios\Linq\LINQEjercicio2\bin\Debug\net7.0\LINQEjercicio2.exe
+D:\Repositorios\Linq\LINQEjercicio2\bin\Debug\net7.0\LINQEjercicio2.deps.json
+D:\Repositorios\Linq\LINQEjercicio2\bin\Debug\net7.0\LINQEjercicio2.runtimeconfig.json
+D:\Repositorios\Linq\LINQEjercicio2\bin\Debug\net7.0\LINQEjercicio2.dll
+D:\Repositorios\Linq\LINQEjercicio2\bin\Debug\net7.0\LINQEjercicio2.pdb
+D:\Repositorios\Linq\LINQEjercicio2\obj\Debug\net7.0\LINQEjercicio2.csproj.AssemblyReference.cache
+D:\Repositorios\Linq\LINQEjercicio2\obj\Debug\net7.0\LINQEjercicio2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repositorios\Linq\LINQEjercicio2\obj\Debug\net7.0\LINQEjercicio2.AssemblyInfoInputs.cache
+D:\Repositorios\Linq\LINQEjercicio2\obj\Debug\net7.0\LINQEjercicio2.AssemblyInfo.cs
+D:\Repositorios\Linq\LINQEjercicio2\obj\Debug\net7.0\LINQEjercicio2.csproj.CoreCompileInputs.cache
+D:\Repositorios\Linq\LINQEjercicio2\obj\Debug\net7.0\LINQEjercicio2.dll
+D:\Repositorios\Linq\LINQEjercicio2\obj\Debug\net7.0\refint\LINQEjercicio2.dll
+D:\Repositorios\Linq\LINQEjercicio2\obj\Debug\net7.0\LINQEjercicio2.pdb
+D:\Repositorios\Linq\LINQEjercicio2\obj\Debug\net7.0\LINQEjercicio2.genruntimeconfig.cache
+D:\Repositorios\Linq\LINQEjercicio2\obj\Debug\net7.0\ref\LINQEjercicio2.dll

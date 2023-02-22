@@ -1,0 +1,15 @@
+D:\Repositorios\Linq\Ejercicio1\Linq1\bin\Debug\net7.0\Linq1.exe
+D:\Repositorios\Linq\Ejercicio1\Linq1\bin\Debug\net7.0\Linq1.deps.json
+D:\Repositorios\Linq\Ejercicio1\Linq1\bin\Debug\net7.0\Linq1.runtimeconfig.json
+D:\Repositorios\Linq\Ejercicio1\Linq1\bin\Debug\net7.0\Linq1.dll
+D:\Repositorios\Linq\Ejercicio1\Linq1\bin\Debug\net7.0\Linq1.pdb
+D:\Repositorios\Linq\Ejercicio1\Linq1\obj\Debug\net7.0\Linq1.csproj.AssemblyReference.cache
+D:\Repositorios\Linq\Ejercicio1\Linq1\obj\Debug\net7.0\Linq1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repositorios\Linq\Ejercicio1\Linq1\obj\Debug\net7.0\Linq1.AssemblyInfoInputs.cache
+D:\Repositorios\Linq\Ejercicio1\Linq1\obj\Debug\net7.0\Linq1.AssemblyInfo.cs
+D:\Repositorios\Linq\Ejercicio1\Linq1\obj\Debug\net7.0\Linq1.csproj.CoreCompileInputs.cache
+D:\Repositorios\Linq\Ejercicio1\Linq1\obj\Debug\net7.0\Linq1.dll
+D:\Repositorios\Linq\Ejercicio1\Linq1\obj\Debug\net7.0\refint\Linq1.dll
+D:\Repositorios\Linq\Ejercicio1\Linq1\obj\Debug\net7.0\Linq1.pdb
+D:\Repositorios\Linq\Ejercicio1\Linq1\obj\Debug\net7.0\Linq1.genruntimeconfig.cache
+D:\Repositorios\Linq\Ejercicio1\Linq1\obj\Debug\net7.0\ref\Linq1.dll
