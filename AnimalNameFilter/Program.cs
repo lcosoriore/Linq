@@ -3,6 +3,7 @@
 Querys querys = new Querys();
 PrintValues(querys.AllCollection());
 PrintValues(querys.AnimalColorGreenAndVowel());
+PrintValues(querys.AnimalOrderByName());
 
 // filters all green animals whose name starts with a vowel
 void PrintValues(IEnumerable<Animal> ListAnimal)

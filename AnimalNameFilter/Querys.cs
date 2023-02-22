@@ -32,5 +32,10 @@ namespace AnimalNameFilter
         {
             return animales.Where(p => p.Color.Contains("Verde") && (p.Name.StartsWith("A")|| p.Name.StartsWith("E")|| p.Name.StartsWith("I")|| p.Name.StartsWith("O")|| p.Name.StartsWith("U")));
         }
+
+        public IEnumerable<Animal> AnimalOrderByName()
+        {
+            return animales.OrderBy(p => p.Name);
+        }
     }
 }

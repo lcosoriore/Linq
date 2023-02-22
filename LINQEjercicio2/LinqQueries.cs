@@ -41,6 +41,27 @@ namespace LINQEjercicio2
             return from b in booksCollection where b.PageCount > 250 && b.Title.Contains("in Action") select b;
         }
 
+        public bool AllBooksHaveStatus()
+        {
+            return booksCollection.All(p => p.Status != string.Empty);
+        }
+        public bool AnyBookPublish2005()
+        {
+            return booksCollection.Any(p => p.PublishedDate.Year ==2005);
+        }
 
+        public IEnumerable<Book> BooksPython()
+        {
+            return booksCollection.Where(p => p.Categories.Contains("Python"));
+        }
+        public IEnumerable<Book> BooksJava()
+        {
+            return booksCollection.Where(p => p.Categories.Contains("Java")).OrderBy(p => p.Title);
+        }
+
+        public IEnumerable<Book> BooksJavaDescending()
+        {
+            return booksCollection.Where(p => p.PageCount>=450).OrderByDescending(p => p.PageCount);
+        }
     }
 }
