@@ -1,0 +1,15 @@
+D:\Repositorios\Linq\AnimalNameFilter\bin\Debug\net7.0\AnimalNameFilter.exe
+D:\Repositorios\Linq\AnimalNameFilter\bin\Debug\net7.0\AnimalNameFilter.deps.json
+D:\Repositorios\Linq\AnimalNameFilter\bin\Debug\net7.0\AnimalNameFilter.runtimeconfig.json
+D:\Repositorios\Linq\AnimalNameFilter\bin\Debug\net7.0\AnimalNameFilter.dll
+D:\Repositorios\Linq\AnimalNameFilter\bin\Debug\net7.0\AnimalNameFilter.pdb
+D:\Repositorios\Linq\AnimalNameFilter\obj\Debug\net7.0\AnimalNameFilter.csproj.AssemblyReference.cache
+D:\Repositorios\Linq\AnimalNameFilter\obj\Debug\net7.0\AnimalNameFilter.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repositorios\Linq\AnimalNameFilter\obj\Debug\net7.0\AnimalNameFilter.AssemblyInfoInputs.cache
+D:\Repositorios\Linq\AnimalNameFilter\obj\Debug\net7.0\AnimalNameFilter.AssemblyInfo.cs
+D:\Repositorios\Linq\AnimalNameFilter\obj\Debug\net7.0\AnimalNameFilter.csproj.CoreCompileInputs.cache
+D:\Repositorios\Linq\AnimalNameFilter\obj\Debug\net7.0\AnimalNameFilter.dll
+D:\Repositorios\Linq\AnimalNameFilter\obj\Debug\net7.0\refint\AnimalNameFilter.dll
+D:\Repositorios\Linq\AnimalNameFilter\obj\Debug\net7.0\AnimalNameFilter.pdb
+D:\Repositorios\Linq\AnimalNameFilter\obj\Debug\net7.0\AnimalNameFilter.genruntimeconfig.cache
+D:\Repositorios\Linq\AnimalNameFilter\obj\Debug\net7.0\ref\AnimalNameFilter.dll
