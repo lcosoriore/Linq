@@ -22,5 +22,25 @@ namespace LINQEjercicio2
             return booksCollection;
         }
 
+        public IEnumerable<Book> BooksAfter2000()
+        {
+            return booksCollection.Where(p=>p.PublishedDate.Year>2000);
+        }
+        public IEnumerable<Book> BooksAfter2000QueryExpression()
+        {
+            return from b in booksCollection  where b.PublishedDate.Year>2000 select b;
+        }
+
+        public IEnumerable<Book> BooksWithMore250PagesAndWordsInAction()
+        {
+            return booksCollection.Where(p => p.PageCount > 250 && p.Title.Contains("in Action"));
+        }
+
+        public IEnumerable<Book> BooksWithMore250PagesAndWordsInActionQueryExpression()
+        {
+            return from b in booksCollection where b.PageCount > 250 && b.Title.Contains("in Action") select b;
+        }
+
+
     }
 }
