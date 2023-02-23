@@ -1,8 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.NetworkInformation;
 using System.Text;
 using System.Threading.Tasks;
+using static System.Reflection.Metadata.BlobBuilder;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace LINQEjercicio2
 {
@@ -75,8 +78,17 @@ namespace LINQEjercicio2
 
         public IEnumerable<Book> FirtsThreeBooks()
         {
-           return booksCollection.Take(3)
+            return booksCollection.Take(3)
                  .Select(p => new Book() { Title=p.Title, PageCount= p.PageCount });
+        }
+       // Using the count operator, returns the number of books that are between 200 and 500 pages.
+       public int NumberBooksBetween200And500PagesCount()
+        {
+            return booksCollection.Count(p=>p.PageCount >200 && p.PageCount<500);
+        }
+        public long NumberBooksBetween200And500PagesLongCount()
+        {
+            return booksCollection.Where(p => p.PageCount > 200 && p.PageCount < 500).LongCount();
         }
     }
 }

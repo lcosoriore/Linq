@@ -15,6 +15,8 @@ PrintValues(queries.BooksJavaDescending());
 PrintValues(queries.BooksTakeOperator());
 PrintValues(queries.BooksSkipOperator());
 PrintValues(queries.FirtsThreeBooks());
+Console.WriteLine($" books that are between 200 and 500 pages using Count -  {queries.NumberBooksBetween200And500PagesCount()}");
+Console.WriteLine($" books that are between 200 and 500 pages using LongCount -  {queries.NumberBooksBetween200And500PagesLongCount()}");
 void PrintValues(IEnumerable<Book> ListBook)
 {
     Console.WriteLine("{0,-60} {1,15} {2,15}\n","Title", "PageCount", "PublishedDate");
