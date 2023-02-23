@@ -14,6 +14,7 @@ PrintValues(queries.BooksJava());
 PrintValues(queries.BooksJavaDescending());
 PrintValues(queries.BooksTakeOperator());
 PrintValues(queries.BooksSkipOperator());
+PrintValues(queries.FirtsThreeBooks());
 void PrintValues(IEnumerable<Book> ListBook)
 {
     Console.WriteLine("{0,-60} {1,15} {2,15}\n","Title", "PageCount", "PublishedDate");

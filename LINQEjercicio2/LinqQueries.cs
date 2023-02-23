@@ -72,5 +72,11 @@ namespace LINQEjercicio2
         {
             return booksCollection.Where(p => p.PageCount>400).Take(4).Skip(2);
         }
+
+        public IEnumerable<Book> FirtsThreeBooks()
+        {
+           return booksCollection.Take(3)
+                 .Select(p => new Book() { Title=p.Title, PageCount= p.PageCount });
+        }
     }
 }
