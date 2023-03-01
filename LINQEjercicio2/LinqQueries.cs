@@ -90,5 +90,16 @@ namespace LINQEjercicio2
         {
             return booksCollection.Where(p => p.PageCount > 200 && p.PageCount < 500).LongCount();
         }
+
+        //Using the min operator, returns the shortest publication date of the collection.
+        public DateTime DatePublishMin()
+        {
+            return booksCollection.Min(p => p.PublishedDate);
+        }
+
+        public int MaxPagesBook()
+        {
+            return booksCollection.Max(p => p.PageCount);
+        }
     }
 }

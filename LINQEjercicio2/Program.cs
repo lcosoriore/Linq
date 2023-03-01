@@ -17,6 +17,8 @@ PrintValues(queries.BooksSkipOperator());
 PrintValues(queries.FirtsThreeBooks());
 Console.WriteLine($" books that are between 200 and 500 pages using Count -  {queries.NumberBooksBetween200And500PagesCount()}");
 Console.WriteLine($" books that are between 200 and 500 pages using LongCount -  {queries.NumberBooksBetween200And500PagesLongCount()}");
+Console.WriteLine($" books with Min Publish Date -  {queries.DatePublishMin()}");
+Console.WriteLine($" books with Max Pages Book -  {queries.MaxPagesBook()}");
 void PrintValues(IEnumerable<Book> ListBook)
 {
     Console.WriteLine("{0,-60} {1,15} {2,15}\n","Title", "PageCount", "PublishedDate");
