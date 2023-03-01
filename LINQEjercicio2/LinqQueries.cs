@@ -101,5 +101,17 @@ namespace LINQEjercicio2
         {
             return booksCollection.Max(p => p.PageCount);
         }
+
+        //Return the book with the least number of pages greater than zero.
+        public Book BookWithLessNumberOfPages()
+        {
+            return booksCollection.Where(p => p.PageCount > 0).MinBy(p => p.PageCount);
+        }
+
+        //Return book with most recent publication date
+        public Book BookWithMostRecentPublicationDate()
+        {
+            return booksCollection.MaxBy(p => p.PublishedDate );
+        }
     }
 }
