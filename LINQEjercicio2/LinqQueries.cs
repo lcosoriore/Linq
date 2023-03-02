@@ -122,5 +122,11 @@ namespace LINQEjercicio2
         {
             return booksCollection.Where(p => p.PublishedDate.Year >= 2000).GroupBy(p => p.PublishedDate.Year);
         }
+
+        public ILookup<char, Book> DicctionaryBooksForCharacter()
+        {
+            return booksCollection.ToLookup(p => p.Title[0], p => p);
+
+        }
     }
 }

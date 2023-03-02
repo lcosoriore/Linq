@@ -28,6 +28,7 @@ Console.WriteLine($" Return book with most recent publication date -  {bookmostr
 Console.WriteLine($" Return average tittle -  {queries.AverageTittle}");
 
 ImprimirGrupo(queries.BooksAfter2000GroupBy());
+ImprimirDiccionario(queries.DicctionaryBooksForCharacter(), 'A');
 void PrintValues(IEnumerable<Book> ListBook)
 {
     Console.WriteLine("{0,-60} {1,15} {2,15}\n","Title", "PageCount", "PublishedDate");
@@ -48,5 +49,14 @@ void ImprimirGrupo(IEnumerable<IGrouping<int, Book>> ListadeLibros)
         {
             Console.WriteLine("{0,-60} {1, 15} {2, 15}", item.Title, item.PageCount, item.PublishedDate.Date.ToShortDateString());
         }
+    }
+}
+
+void ImprimirDiccionario(ILookup<char, Book> ListadeLibros, char letra)
+{
+    Console.WriteLine("{0,-60} {1, 15} {2, 15}\n", "Titulo", "N. Paginas", "Fecha publicacion");
+    foreach (var item in ListadeLibros[letra])
+    {
+        Console.WriteLine("{0,-60} {1, 15} {2, 15}", item.Title, item.PageCount, item.PublishedDate.Date.ToShortDateString());
     }
 }
