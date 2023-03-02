@@ -26,11 +26,27 @@ var bookmostrecent = queries.BookWithMostRecentPublicationDate();
 Console.WriteLine($" Return book with most recent publication date -  {bookmostrecent.Title} - {bookmostrecent.PageCount}");
 
 Console.WriteLine($" Return average tittle -  {queries.AverageTittle}");
+
+ImprimirGrupo(queries.BooksAfter2000GroupBy());
 void PrintValues(IEnumerable<Book> ListBook)
 {
     Console.WriteLine("{0,-60} {1,15} {2,15}\n","Title", "PageCount", "PublishedDate");
 	foreach (var item in ListBook)
 	{
 		Console.WriteLine("{0,-60} {1,15} {2,15}\n", item.Title, item.PageCount, item.PublishedDate.ToShortDateString());
+    }
+}
+
+void ImprimirGrupo(IEnumerable<IGrouping<int, Book>> ListadeLibros)
+{
+    foreach (var grupo in ListadeLibros)
+    {
+        Console.WriteLine("");
+        Console.WriteLine($"Grupo: {grupo.Key}");
+        Console.WriteLine("{0,-60} {1, 15} {2, 15}\n", "Titulo", "N. Paginas", "Fecha publicacion");
+        foreach (var item in grupo)
+        {
+            Console.WriteLine("{0,-60} {1, 15} {2, 15}", item.Title, item.PageCount, item.PublishedDate.Date.ToShortDateString());
+        }
     }
 }

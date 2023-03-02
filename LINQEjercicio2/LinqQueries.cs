@@ -117,5 +117,10 @@ namespace LINQEjercicio2
         {
             return Convert.ToDouble(booksCollection.Average(p => p.Title.Length));
         }
+
+        public IEnumerable<IGrouping<int, Book>> BooksAfter2000GroupBy()
+        {
+            return booksCollection.Where(p => p.PublishedDate.Year >= 2000).GroupBy(p => p.PublishedDate.Year);
+        }
     }
 }
