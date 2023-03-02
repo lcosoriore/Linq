@@ -128,5 +128,13 @@ namespace LINQEjercicio2
             return booksCollection.ToLookup(p => p.Title[0], p => p);
 
         }
+        public IEnumerable<Book> BooksAfter2005()
+        {
+            var LibrosDepuesdel2005 = booksCollection.Where(p => p.PublishedDate.Year > 2005);
+
+            var LibrosConMasde500pag = booksCollection.Where(p => p.PageCount > 500);
+
+            return LibrosDepuesdel2005.Join(LibrosConMasde500pag, p => p.Title, x => x.Title, (p, x) => p);
+        }
     }
 }

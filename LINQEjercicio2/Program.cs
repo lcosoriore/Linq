@@ -29,6 +29,8 @@ Console.WriteLine($" Return average tittle -  {queries.AverageTittle}");
 
 ImprimirGrupo(queries.BooksAfter2000GroupBy());
 ImprimirDiccionario(queries.DicctionaryBooksForCharacter(), 'A');
+
+PrintValues(queries.BooksAfter2005());
 void PrintValues(IEnumerable<Book> ListBook)
 {
     Console.WriteLine("{0,-60} {1,15} {2,15}\n","Title", "PageCount", "PublishedDate");
