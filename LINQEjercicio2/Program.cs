@@ -24,6 +24,8 @@ Console.WriteLine($" Book With Less Number Of Pages -  {book.Title} - {book.Page
 
 var bookmostrecent = queries.BookWithMostRecentPublicationDate();
 Console.WriteLine($" Return book with most recent publication date -  {bookmostrecent.Title} - {bookmostrecent.PageCount}");
+
+Console.WriteLine($" Return average tittle -  {queries.AverageTittle}");
 void PrintValues(IEnumerable<Book> ListBook)
 {
     Console.WriteLine("{0,-60} {1,15} {2,15}\n","Title", "PageCount", "PublishedDate");

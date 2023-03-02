@@ -113,5 +113,9 @@ namespace LINQEjercicio2
         {
             return booksCollection.MaxBy(p => p.PublishedDate );
         }
+        public double AverageTittle()
+        {
+            return Convert.ToDouble(booksCollection.Average(p => p.Title.Length));
+        }
     }
 }
